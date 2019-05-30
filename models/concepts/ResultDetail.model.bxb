@@ -1,0 +1,7 @@
+structure (ResultDetail) {
+  description (한가지 정보 구조체)
+  property (value) {
+    type (OutputDetail)
+    min (Optional) max (One)
+  }
+}

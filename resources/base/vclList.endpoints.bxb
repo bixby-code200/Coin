@@ -1,0 +1,15 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (ShowVCList) {
+      accepted-inputs (virtualCoins)
+      local-endpoint (showVCList.js)
+    }
+    
+    // action-endpoint (ShowVCDetail) {
+    //   accepted-inputs (virtualCoinName)
+    //   remote-endpoint (__ENDPOINT_URL__) {
+    //     method (__HTTP_METHOD_USED__)
+    //   }
+    // }
+  }
+}
