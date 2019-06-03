@@ -1,0 +1,22 @@
+result-view {
+  match {
+    ResultList (result)
+  }
+  
+  render{
+    list-of (result){
+      where-each(coin){
+        layout-macro (coins-list){
+          param (coinResult){
+            expression(coin)
+          }
+        }    
+      }
+    }
+    
+    
+    
+    
+    
+  }
+}

@@ -7,5 +7,5 @@ action (ShowVCList) {
       min (Optional) max (One)
     }
   }
-  output (OutputList)
+  output (ResultList)
 }

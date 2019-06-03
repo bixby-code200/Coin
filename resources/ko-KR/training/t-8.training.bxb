@@ -1,5 +1,5 @@
 train (t-8c1j39ucydqp1c5g090kjdvcn) {
-  utterance ("[g:OutputList] (가상 화폐)[v:VirtualCoins] 목록 보여줘")
-  plan (Y2BmkEjOT0k1MjDQK0vOz8zT8y8tKSgt8cksLkGXCc7ILw9zBstIocqEZRaVlCbmOAPZxQxMDIxAzAAkGRlAgAmCAQ==)
-  last-modified (1559197422070)
+  utterance ("[g:ShowVCList] (가상 화폐)[v:VirtualCoins] 목록 보여줘")
+  plan (Y2BmkEjOT0k1MjDQK0vOz8zTC0otLs0p8cksLkGXCc7ILw9zBstIocqEZRaVlCbmOAPZxQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1559544030112)
 }

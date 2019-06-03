@@ -1,8 +1,14 @@
 structure (ResultList) {
   description (가상화폐목록 구조체)
   
-  property (values) {
-    type (OutputList)
-    min (Optional) max (One)
+  property (name) {
+    type (CoinName)
+    min (Required) max (One)
   }
+  
+  property (value) {
+    type (CoinValues)
+    min(Optional) max (Many)
+  }
+  
 }

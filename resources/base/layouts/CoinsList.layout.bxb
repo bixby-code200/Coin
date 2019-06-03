@@ -1,0 +1,22 @@
+layout-macro-def (coins-list){
+  params {
+    param (coinResult){
+      type (ResultList)
+      min (Required) max(One)
+    }
+  }
+  
+  content {
+    title-area{
+      halign (Start)
+      slot1 {
+        text{
+          value("#{value(coinResult.name)}:  #{value(coinResult.value)}")
+          style(Title_XS)
+        }
+      }
+      
+    }
+    
+  }
+}
