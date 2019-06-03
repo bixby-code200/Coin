@@ -11,11 +11,10 @@ layout-macro-def (coins-list){
       halign (Start)
       slot1 {
         text{
-          value("#{value(coinResult.name)}:  #{value(coinResult.value)}")
+          value("#{value(coinResult.name)}:       #{value(coinResult.value)}원")
           style(Title_XS)
         }
       }
-      
     }
     
   }
