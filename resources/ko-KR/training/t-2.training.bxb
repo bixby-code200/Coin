@@ -1,0 +1,5 @@
+train (t-2l080ceoxopwlynnjddcklbmp) {
+  utterance ("[g:ShowVCDetail] (이더리움)[v:CoinName] 상세목록")
+  plan (Y2BmkErOT0k1MjDQK0vOz8zTC0otLs0pcUktSczMQZcLzsgvD3OGyomhyjkDCb/E3FQGJgZGIGYAkowMIADlAwA=)
+  last-modified (1559895698279)
+}

@@ -2,9 +2,9 @@ action (ShowVCDetail) {
   type (Search)
   description (코인 한가지만 보여주는 액션)
   collect {
-    input (virtualCoinName) {
-      type (VirtualCoinName)
-      min (Optional) max (One)
+    input (coinName) {
+      type (CoinName)
+      min (Required) max (One)
     }
   }
   output (ResultDetail)

@@ -1,0 +1,9 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (ShowVCDetail) {
+      accepted-inputs (coinName)
+      local-endpoint (showVCDetail.js)
+    }
+
+  }
+}

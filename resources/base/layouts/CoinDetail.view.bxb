@@ -1,18 +1,14 @@
 result-view {
   match {
-    Result (result)
+    ResultDetail (result)
   }
   
   render{
-    list-of (result){
-      where-each(coin){
         layout-macro (coins-list){
           param (coinResult){
-            expression(coin)
+            expression(result)
           }
         }    
       }
-    }
     
-  }
 }

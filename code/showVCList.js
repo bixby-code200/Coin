@@ -4,9 +4,13 @@ function makeResult(data){
   const payCurrency = data.payment_currency;
   delete data.timestamp
   delete data.payment_currency;
+  
+  nameMatch = require('lib/name.js');
+  
   for(let key in data){
     let dum = {};
-    dum.name = String(key);
+    dum.name = key;
+    dum.korName = nameMatch[key]
     dum.value = data[key].bids[0].price;
     resultArray.push(dum);
   }

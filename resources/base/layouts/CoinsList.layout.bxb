@@ -1,19 +1,22 @@
 layout-macro-def (coins-list){
   params {
     param (coinResult){
-      type (ResultList)
+      type (Result)
       min (Required) max(One)
     }
   }
   
   content {
-    title-area{
-      halign (Start)
-      slot1 {
-        text{
-          value("#{value(coinResult.name)}:       #{value(coinResult.value)}원")
-          style(Title_XS)
+    cell-card{
+      slot2 {
+        content {
+          order(PrimarySecondary)
+          primary("#{value(coinResult.korName)}")
+          secondary("#{value(coinResult.name)}")
         }
+      }
+      slot3 {
+        label("#{value(coinResult.value)} 원")
       }
     }
     

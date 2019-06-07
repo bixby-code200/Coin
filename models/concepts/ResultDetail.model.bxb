@@ -1,7 +1,19 @@
 structure (ResultDetail) {
-  description (한가지 정보 구조체)
+  description (가상화폐목록 구조체)
+  
+  property (name) {
+    type (CoinName)
+    min (Required) max (One)
+  }
+  
   property (value) {
-    type (OutputDetail)
+    type (CoinValues)
+    min(Optional) max (Many)
+  }
+  
+  property (korName) {
+    type (CoinKorName)
     min (Optional) max (One)
   }
+  
 }

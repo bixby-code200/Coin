@@ -1,0 +1,5 @@
+train (t-jrqmh9jrjtum1kidzvp8htz8i) {
+  utterance ("[g:ShowVCDetail] (비트코인)[v:CoinName] 보여줘")
+  plan (Y2BmkErOT0k1MjDQK0vOz8zTC0otLs0pcUktSczMQZcLzsgvD3OGyomhyjkDCb/E3FQGJgZGIGYAkowMIADlAwA=)
+  last-modified (1559895617173)
+}

@@ -1,4 +1,4 @@
-structure (ResultList) {
+structure (Result) {
   description (가상화폐목록 구조체)
   
   property (name) {
@@ -9,6 +9,11 @@ structure (ResultList) {
   property (value) {
     type (CoinValues)
     min(Optional) max (Many)
+  }
+  
+  property (korName) {
+    type (CoinKorName)
+    min (Optional) max (One)
   }
   
 }

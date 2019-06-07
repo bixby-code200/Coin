@@ -1,5 +1,5 @@
 action (ShowVCList) {
-  type(Search)
+  type (Search)
   description (가상 화폐 리스트를 보여줌)
   collect {
     input (virtualCoins) {
@@ -7,5 +7,5 @@ action (ShowVCList) {
       min (Optional) max (One)
     }
   }
-  output (ResultList)
+  output (Result)
 }
